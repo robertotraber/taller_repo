@@ -1,0 +1,11 @@
+
+
+FactPerformance: student_id, class_id, assignment_id, date, grade, attendace_status
+
+DimStudent: student_id, name, date_of_birth
+
+DimClass: class_id, name, teacher_id
+
+DimAssignment: assignment_id, title, due_date
+
+DimTeacher: teacher_id, name, subject
