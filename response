@@ -1,0 +1,9 @@
+
+
+customers: id (PK), name, email, address, created_at
+products: id (PK), name, description, price
+orders id (PK), customer_id (FK), order_date, status, total_amount
+orderitems: id (PK), order_id (FK) product_id (FK), quantity.. 
+Payments: id (PK), order_id (FK), payment_date, amount, method, status
+
+
